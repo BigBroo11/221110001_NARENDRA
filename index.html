@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./assets/js/color-modes.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.122.0">
+  <title>Navbar Template · Bootstrap v5.3</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Style1.css">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+
+    .bd-mode-toggle .dropdown-menu .active .bi {
+      display: block !important;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="navbars.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img class="LOGO" src="./assets/Wings (1).png" />
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link">BRANDS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">BERITA & KEGIATAN</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">EXPORT</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">CAREER</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+      </ul>
+      <li class="fusion-custom-menu-item fusion-main-menu-search fusion-search-overlay"><a
+          class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Search" data-title="Search"
+          title="Search" role="button" aria-expanded="false" style="height: 84px;"></a></li>
+      </ul>
+    </div>
+    <h1 class="entry-title">ALE-ALE</h1>
+
+    <div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
+      style="background-position: left top; background-repeat: no-repeat; background-size: cover; padding: 0px; min-height: 0px;">
+      <div><span class=" fusion-imageframe imageframe-none imageframe-1 hover-type-none"><img width="300"
+            image_height="300" image_id="70" title="Logo-Ale-Ale"
+            src="https://wingscorp.com/wp-content/uploads/2020/10/Logo-Ale-Ale.png" class="img-responsive wp-image-70"
+            srcset="https://wingscorp.com/wp-content/uploads/2020/10/Logo-Ale-Ale-200x200.png 200w, https://wingscorp.com/wp-content/uploads/2020/10/Logo-Ale-Ale.png 300w"
+            sizes="(max-width: 640px) 100vw, 300px"></span></div>
+      <div class="fusion-text fusion-text-1">
+        <div class="container2">
+          <div class="fusion-text fusion-text-1">
+            <div class="medium-9 columns">
+              <div style="border-bottom: 3px solid red; width: 120px; margin-bottom: 10px;"></div>
+              <h1 class="title">Ale-Ale</h1>
+              <div class="desc">
+                <p>Ale-Ale is a fresh fruit-flavored drink, with various choice of fruit flavors. The taste is
+                  incredible!!!! SOO FRESSSH!</p>
+                <ul>
+                  <li><strong>Strawberry</strong></li>
+                  <li><strong>Grape</strong></li>
+                  <li><strong>Orange</strong></li>
+                  <li><strong>Soursop</strong></li>
+                  <li><strong>Passion Fruit</strong></li>
+                  <li><strong>Guava</strong></li>
+                </ul>
+                <p><strong>Ale-ale, Unbeatable Freshness!</strong></p>
+              </div>
+              <div class="hide-for-medium"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="fusion-carousel-holder"
+        style="text-align: left; float: none; position: absolute; inset: auto auto auto 0px; margin: 0px; width: 4320px; height: 195px; line-height: 195px;">
+        <li class="fusion-carousel-item" style="margin-left: 80px; width: 190px;">
+          <div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+            <div class="fusion-image-wrapper hover-type-none"><a data-rel="iLightbox[image_carousel_1]"
+                data-title="Ale-Ale Markisa Kering 2769 Rev FLT" aria-label="Ale-Ale Markisa Kering 2769 Rev FLT"
+                href="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Markisa-Kering-2769-Rev-FLT.png"
+                target="_self" data-caption=""><img width="230" height="230"
+                  src="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Markisa-Kering-2769-Rev-FLT.png"
+                  class="attachment-full size-full" alt="Markisa"
+                  srcset="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Markisa-Kering-2769-Rev-FLT-200x200.png 200w, https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Markisa-Kering-2769-Rev-FLT.png 230w"
+                  sizes="(min-width: 2200px) 100vw, (min-width: 856px) 240px, (min-width: 784px) 320px, (min-width: 712px) 480px, (min-width: 640px) 712px, "></a>
+            </div>
+          </div>
+        </li>
+        <li class="fusion-carousel-item" style="margin-left: 80px; width: 190px;">
+          <div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+            <div class="fusion-image-wrapper hover-type-none"><a data-rel="iLightbox[image_carousel_1]"
+                data-title="Ale-Ale Jeruk Kering 2777 Rev FLT" aria-label="Ale-Ale Jeruk Kering 2777 Rev FLT"
+                href="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jeruk-Kering-2777-Rev-FLT.png"
+                target="_self" data-caption=""><img width="230" height="230"
+                  src="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jeruk-Kering-2777-Rev-FLT.png"
+                  class="attachment-full size-full" alt="Jeruk"
+                  srcset="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jeruk-Kering-2777-Rev-FLT-200x200.png 200w, https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jeruk-Kering-2777-Rev-FLT.png 230w"
+                  sizes="(min-width: 2200px) 100vw, (min-width: 856px) 240px, (min-width: 784px) 320px, (min-width: 712px) 480px, (min-width: 640px) 712px, "></a>
+            </div>
+          </div>
+        </li>
+        <li class="fusion-carousel-item" style="margin-left: 80px; width: 190px;">
+          <div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+            <div class="fusion-image-wrapper hover-type-none"><a data-rel="iLightbox[image_carousel_1]"
+                data-title="Ale-Ale Anggur Kering 2750 Rev FLT" aria-label="Ale-Ale Anggur Kering 2750 Rev FLT"
+                href="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Anggur-Kering-2750-Rev-FLT.png"
+                target="_blank" rel="noopener noreferrer" data-caption=""><img width="230" height="230"
+                  src="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Anggur-Kering-2750-Rev-FLT.png"
+                  class="attachment-full size-full" alt="Anggur"
+                  srcset="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Anggur-Kering-2750-Rev-FLT-200x200.png 200w, https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Anggur-Kering-2750-Rev-FLT.png 230w"
+                  sizes="(min-width: 2200px) 100vw, (min-width: 856px) 240px, (min-width: 784px) 320px, (min-width: 712px) 480px, (min-width: 640px) 712px, "></a>
+            </div>
+          </div>
+        </li>
+        <li class="fusion-carousel-item" style="margin-left: 80px; width: 190px;">
+          <div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+            <div class="fusion-image-wrapper hover-type-none"><a data-rel="iLightbox[image_carousel_1]"
+                data-title="Ale-Ale Jambu Biji" aria-label="Ale-Ale Jambu Biji"
+                href="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jambu-Biji.png" target="_self"
+                data-caption=""><img width="230" height="230"
+                  src="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jambu-Biji.png"
+                  class="attachment-full size-full" alt="Jambu Biji"
+                  srcset="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jambu-Biji-200x200.png 200w, https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Jambu-Biji.png 230w"
+                  sizes="(min-width: 2200px) 100vw, (min-width: 856px) 240px, (min-width: 784px) 320px, (min-width: 712px) 480px, (min-width: 640px) 712px, "></a>
+            </div>
+          </div>
+        </li>
+        <li class="fusion-carousel-item" style="margin-left: 80px; width: 190px;">
+          <div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+            <div class="fusion-image-wrapper hover-type-none"><a data-rel="iLightbox[image_carousel_1]"
+                data-title="Ale-Ale Stroberi Kering 2738 Rev FLT" aria-label="Ale-Ale Stroberi Kering 2738 Rev FLT"
+                href="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Stroberi-Kering-2738-Rev-FLT.png"
+                target="_self" data-caption=""><img width="230" height="230"
+                  src="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Stroberi-Kering-2738-Rev-FLT.png"
+                  class="attachment-full size-full" alt="Strawberry"
+                  srcset="https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Stroberi-Kering-2738-Rev-FLT-200x200.png 200w, https://wingscorp.com/wp-content/uploads/2020/10/Ale-Ale-Stroberi-Kering-2738-Rev-FLT.png 230w"
+                  sizes="(min-width: 2200px) 100vw, (min-width: 856px) 240px, (min-width: 784px) 320px, (min-width: 712px) 480px, (min-width: 640px) 712px, "></a>
+            </div>
+          </div>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">HEAD OFFICE</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jakarta</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jl. Tipar Cakung Kav. F 5-7, Cakung Barat, Cakung,</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jakarta Timur 13910</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Phone : 021 4602696</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Surabaya</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jl. Embong Malang No.61-65</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gedung Ekonomi Lt.7</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Surabaya 60261</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">LAYANAN KONSUMEN</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">PO BOX PT WINGS SURYA 60012
+            </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Surabaya - Indonesia</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">0-800-18-18-818 Bebas Pulsa</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">031-5325005 Pengguna Handphone</a></li>
+          </ul>
+        </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>WINGS GROUP © COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </div>
+      </footer>
+
+</body>
+
+</html>
